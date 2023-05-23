@@ -6,7 +6,7 @@ import BlogCard from "./BlogCard";
 const BlogArea = () => {
   // setting slider slick
   let settings = {
-    arrows: true,
+    arrows: false,
     dots: false,
     infinite: true,
     autoplay: true,
@@ -23,19 +23,19 @@ const BlogArea = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         },
       },
     ],

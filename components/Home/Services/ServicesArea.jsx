@@ -38,7 +38,7 @@ const ServicesArea = () => {
     },
   ];
   let settings = {
-    arrows: true,
+    arrows: false,
     dots: false,
     infinite: true,
     autoplay: true,
@@ -61,13 +61,13 @@ const ServicesArea = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
         },
       },
     ],

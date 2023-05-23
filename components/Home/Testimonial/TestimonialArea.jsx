@@ -6,7 +6,7 @@ import TestimonialCard from "./TestimonialCard";
 
 const TestimonialArea = () => {
   let settings = {
-    arrows: true,
+    arrows: false,
     dots: false,
     infinite: true,
     autoplay: true,
