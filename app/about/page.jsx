@@ -1,8 +1,17 @@
+import CounterArea from '@/components/AboutUs/CounterArea'
+import Hero from '@/components/AboutUs/Hero'
+import OurDoctor from '@/components/AboutUs/OurDoctor/OurDoctor'
+import AboutArea from '@/components/Home/AboutArea'
 import React from 'react'
 
 const About = () => {
   return (
-    <div>About</div>
+    <>
+    <Hero/>
+    <AboutArea/>
+    <CounterArea/>
+    <OurDoctor/>
+    </>
   )
 }
 

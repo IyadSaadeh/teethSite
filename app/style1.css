@@ -33518,7 +33518,8 @@ button.back-to-top {
 
 .contact-info .social-media li a {
     color: #565acf;
-    background-color: #fff
+    background-color: #fff;
+    padding: 28%;
 }
 
 .contact-info .icon-box {
@@ -33541,10 +33542,10 @@ button.back-to-top {
     font-weight: 600
 }
 
-.contact-info .icon-box .title i {
+.contact-info .icon-box .title svg {
     font-size: 24px;
     margin-right: 10px;
-    color: #fff
+    color: #ffff
 }
 
 @media only screen and (max-width: 1199px) {
